@@ -1,0 +1,459 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CreateCpcMap.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.fra\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CreateCpcMap.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CREATECPCMAP_DIALOG DIALOGEX 0, 0, 616, 417
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CreateCpcMap"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Sprites",IDC_STATIC,4,4,72,372
+    GROUPBOX        "Carte",IDC_STATIC,80,4,536,344
+    SCROLLBAR       IDC_SCROLL_SPRITE,60,12,12,360,SBS_VERT
+    SCROLLBAR       IDC_VSCROLL_MAP,600,12,12,320,SBS_VERT
+    SCROLLBAR       IDC_HSCROLL_MAP,88,332,512,12
+    PUSHBUTTON      "Importer sprites",IDC_IMPORT,136,352,56,12
+    EDITTEXT        IDC_NUMSPRITE,316,364,20,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Sprite courant",IDC_STATIC,312,352,56,30
+    PUSHBUTTON      "Lire Map",IDC_LIRE_MAP,512,356,44,12
+    PUSHBUTTON      "Sauver Map",IDC_SAUVER_MAP,512,372,44,12
+    PUSHBUTTON      "Lire Sprites",IDC_LIRE_SPRITES,80,352,52,12
+    PUSHBUTTON      "Sauver Sprites",IDC_SAUVER_SPRITES,80,368,52,12
+    PUSHBUTTON      "Editer sprites",IDC_EDIT,136,368,56,12
+    CONTROL         "",IDC_COL00,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,136,400,20,12
+    CONTROL         "",IDC_COL01,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,160,400,20,12
+    CONTROL         "",IDC_COL02,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,184,400,20,12
+    CONTROL         "",IDC_COL03,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,208,400,20,12
+    CONTROL         "",IDC_COL04,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,232,400,20,12
+    CONTROL         "",IDC_COL05,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,256,400,20,12
+    CONTROL         "",IDC_COL06,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,280,400,20,12
+    CONTROL         "",IDC_COL07,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,304,400,20,12
+    CONTROL         "",IDC_COL08,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,328,400,20,12
+    CONTROL         "",IDC_COL09,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,352,400,20,12
+    CONTROL         "",IDC_COL10,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,376,400,20,12
+    CONTROL         "",IDC_COL11,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,400,400,20,12
+    CONTROL         "",IDC_COL12,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,424,400,20,12
+    CONTROL         "",IDC_COL13,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,448,400,20,12
+    CONTROL         "",IDC_COL14,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,472,400,20,12
+    CONTROL         "",IDC_COL15,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,496,400,20,12
+    PUSHBUTTON      "Lire Palette",IDC_LIRE_PALETTE,80,388,52,12
+    PUSHBUTTON      "Sauver Palette",IDC_SAUVER_PALETTE,80,404,52,12
+    PUSHBUTTON      "Importer Map",IDC_IMPORT_MAP,560,356,52,12
+    EDITTEXT        IDC_POSXMAP,420,364,20,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Informations Map",IDC_STATIC,400,352,104,44
+    EDITTEXT        IDC_POSYMAP,420,380,20,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "X:",IDC_STATIC,408,368,8,8
+    LTEXT           "Y:",IDC_STATIC,408,384,8,8
+    EDITTEXT        IDC_SPRITEMAP,480,364,20,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Sprite:",IDC_STATIC,456,368,21,8
+    PUSHBUTTON      "Raz Sprites",IDC_RAZ_SPRITES,4,380,56,12
+    PUSHBUTTON      "Raz Map",IDC_RAZ_MAP,560,372,52,12
+    LTEXT           "",IDC_MEMOBLOC,220,372,80,8
+    CONTROL         "Cpc +",IDC_CPCPLUS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,530,400,70,10
+END
+
+IDD_IMPORT_SPRITES DIALOG DISCARDABLE  0, 0, 432, 285
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ImportSpritesSCR"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Importer",IDOK,380,256,50,12
+    PUSHBUTTON      "Lire écran SCR",IDC_LIRE,4,252,56,12
+    CONTROL         "Importer Palette",IDC_IMPORTPAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,4,268,64,8
+    LTEXT           "Offset X:",IDC_STATIC,92,257,28,8
+    LTEXT           "Offset Y:",IDC_STATIC,92,268,28,8
+    EDITTEXT        IDC_OFFSETX,120,252,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OFFSETY,120,265,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Nb. Sprites X:",IDC_STATIC,148,257,44,8
+    LTEXT           "Nb. Sprites Y:",IDC_STATIC,148,268,44,8
+    EDITTEXT        IDC_NBSPRITESX,192,252,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_NBSPRITESY,192,265,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "Appliquer",IDC_APPLIQUE,220,256,44,12
+    DEFPUSHBUTTON   "Annuler",IDC_ANNULE,380,272,50,12
+    LTEXT           "Premier sprite :",IDC_STATIC,292,256,48,8
+    EDITTEXT        IDC_PREMSPRITE,344,252,24,12,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_IMPORT_MAP DIALOG DISCARDABLE  0, 0, 432, 285
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ImportMapSCR"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Importer",IDOK,380,256,50,12
+    PUSHBUTTON      "Lire écran SCR",IDC_LIRE,4,252,56,12
+    CONTROL         "Importer Palette",IDC_IMPORTPAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,4,268,64,8
+    LTEXT           "Offset Map X:",IDC_STATIC,92,257,44,8
+    LTEXT           "Offset Map Y:",IDC_STATIC,92,268,44,8
+    EDITTEXT        IDC_OFFSETX,136,252,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OFFSETY,136,265,24,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "Appliquer",IDC_APPLIQUE,164,260,44,12
+    DEFPUSHBUTTON   "Annuler",IDC_ANNULE,380,272,50,12
+END
+
+IDD_CHOIXCOULEUR DIALOG DISCARDABLE  0, 0, 148, 209
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choix d'une couleur"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Valider",IDOK,20,192,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,76,192,50,14
+    CONTROL         "",IDC_COL00,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,4,4,20,12
+    CONTROL         "",IDC_COL01,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,28,4,20,12
+    CONTROL         "",IDC_COL02,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,52,4,20,12
+    CONTROL         "",IDC_COL03,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,76,4,20,12
+    CONTROL         "",IDC_COL04,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,100,4,20,12
+    CONTROL         "",IDC_COL05,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,124,4,20,12
+    LTEXT           "00",IDC_STATIC,8,20,12,8
+    LTEXT           "01",IDC_STATIC,32,20,12,8
+    LTEXT           "02",IDC_STATIC,56,20,12,8
+    LTEXT           "03",IDC_STATIC,80,20,12,8
+    LTEXT           "04",IDC_STATIC,104,20,12,8
+    LTEXT           "05",IDC_STATIC,128,20,12,8
+    CONTROL         "",IDC_COL06,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,4,32,20,12
+    CONTROL         "",IDC_COL07,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,28,32,20,12
+    CONTROL         "",IDC_COL08,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,52,32,20,12
+    CONTROL         "",IDC_COL09,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,76,32,20,12
+    CONTROL         "",IDC_COL10,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,100,32,20,12
+    CONTROL         "",IDC_COL11,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,124,32,20,12
+    LTEXT           "06",IDC_STATIC,8,48,12,8
+    LTEXT           "07",IDC_STATIC,32,48,12,8
+    LTEXT           "08",IDC_STATIC,56,48,12,8
+    LTEXT           "09",IDC_STATIC,80,48,12,8
+    LTEXT           "10",IDC_STATIC,104,48,12,8
+    LTEXT           "11",IDC_STATIC,128,48,12,8
+    CONTROL         "",IDC_COL12,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,4,60,20,12
+    CONTROL         "",IDC_COL13,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,28,60,20,12
+    CONTROL         "",IDC_COL14,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,52,60,20,12
+    CONTROL         "",IDC_COL15,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,76,60,20,12
+    CONTROL         "",IDC_COL16,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,100,60,20,12
+    CONTROL         "",IDC_COL17,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,124,60,20,12
+    LTEXT           "12",IDC_STATIC,8,76,12,8
+    LTEXT           "13",IDC_STATIC,32,76,12,8
+    LTEXT           "14",IDC_STATIC,56,76,12,8
+    LTEXT           "15",IDC_STATIC,80,76,12,8
+    LTEXT           "16",IDC_STATIC,104,76,12,8
+    LTEXT           "17",IDC_STATIC,128,76,12,8
+    CONTROL         "",IDC_COL18,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,4,88,20,12
+    CONTROL         "",IDC_COL19,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,28,88,20,12
+    CONTROL         "",IDC_COL20,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,52,88,20,12
+    CONTROL         "",IDC_COL21,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,76,88,20,12
+    CONTROL         "",IDC_COL22,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,100,88,20,12
+    CONTROL         "",IDC_COL23,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,124,88,20,12
+    LTEXT           "18",IDC_STATIC,8,104,12,8
+    LTEXT           "19",IDC_STATIC,32,104,12,8
+    LTEXT           "20",IDC_STATIC,56,104,12,8
+    LTEXT           "21",IDC_STATIC,80,104,12,8
+    LTEXT           "22",IDC_STATIC,104,104,12,8
+    LTEXT           "23",IDC_STATIC,128,104,12,8
+    CONTROL         "",IDC_COL24,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,4,116,20,12
+    CONTROL         "",IDC_COL25,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,28,116,20,12
+    CONTROL         "",IDC_COL26,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,52,116,20,12
+    LTEXT           "24",IDC_STATIC,8,132,12,8
+    LTEXT           "25",IDC_STATIC,32,132,12,8
+    LTEXT           "26",IDC_STATIC,56,132,12,8
+    CONTROL         "",IDC_COLCHOIX,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,32,156,104,20
+    GROUPBOX        "Couleur choisie :",IDC_STATIC_COLCHOIX,4,144,140,40
+    LTEXT           "01 :",IDC_NUMCOL,12,160,16,12
+END
+
+IDD_CHOIXCOULPLUS DIALOG DISCARDABLE  0, 0, 192, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choix de la couleur"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,44,76,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,96,76,50,14
+    CONTROL         "",IDC_COLCHOIX1,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,132,12,52,44
+    EDITTEXT        IDC_VAL_R,108,12,20,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    LTEXT           "Rouge",IDC_TEXT_R,8,15,24,8
+    EDITTEXT        IDC_VAL_V,108,28,20,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    LTEXT           "Vert",IDC_TEXT_V,8,32,24,8
+    EDITTEXT        IDC_VAL_B,108,44,20,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    LTEXT           "Bleu",IDC_TEXT_B,8,48,24,8
+    LTEXT           "",IDC_VAL_HEX,144,60,24,8
+    GROUPBOX        "",IDC_STATIC,4,4,184,68
+    CONTROL         "Slider1",IDC_SLIDER_R,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,36,13,72,12
+    CONTROL         "Slider1",IDC_SLIDER_V,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,36,29,72,12
+    CONTROL         "Slider1",IDC_SLIDER_B,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,36,45,72,12
+END
+
+IDD_EDIT_SPRITES DIALOG DISCARDABLE  0, 0, 388, 249
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Editeur de Sprites"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Fermer",IDCANCEL,168,232,50,14
+    CONTROL         "",IDC_COL00,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,4,216,20,12
+    CONTROL         "",IDC_COL01,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,28,216,20,12
+    CONTROL         "",IDC_COL02,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,52,216,20,12
+    CONTROL         "",IDC_COL03,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,76,216,20,12
+    CONTROL         "",IDC_COL04,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,100,216,20,12
+    CONTROL         "",IDC_COL05,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,124,216,20,12
+    CONTROL         "",IDC_COL06,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,148,216,20,12
+    CONTROL         "",IDC_COL07,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,172,216,20,12
+    CONTROL         "",IDC_COL08,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,196,216,20,12
+    CONTROL         "",IDC_COL09,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,220,216,20,12
+    CONTROL         "",IDC_COL10,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,244,216,20,12
+    CONTROL         "",IDC_COL11,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,268,216,20,12
+    CONTROL         "",IDC_COL12,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,292,216,20,12
+    CONTROL         "",IDC_COL13,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,316,216,20,12
+    CONTROL         "",IDC_COL14,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,340,216,20,12
+    CONTROL         "",IDC_COL15,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,364,216,20,12
+    CONTROL         "",IDC_COLCHOIX,"Static",SS_BLACKFRAME | SS_NOTIFY | 
+                    SS_SUNKEN,8,68,48,44
+    CONTROL         "Grille",IDC_GRILLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,332,84,32,8
+    SCROLLBAR       IDC_SCROLLSPRITE,134,195,121,12
+    LTEXT           "Sprite n°:",IDC_STATIC,12,8,32,8
+    EDITTEXT        IDC_NUMSPRITE,44,4,20,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "",IDC_STATIC_POSX,300,8,44,8
+    LTEXT           "",IDC_STATIC_POSY,300,20,44,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040C04B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Application MFC CreateCpcMap\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CreateCpcMap\0"
+            VALUE "LegalCopyright", "Copyright (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CreateCpcMap.EXE\0"
+            VALUE "ProductName", "Application CreateCpcMap\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CREATECPCMAP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 609
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 410
+    END
+
+    IDD_IMPORT_SPRITES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 425
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 278
+    END
+
+    IDD_EDIT_SPRITES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 381
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\CreateCpcMap.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.fra\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
